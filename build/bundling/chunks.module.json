@@ -1,0 +1,81 @@
+{
+  "errors": [],
+  "warnings": [],
+  "version": "4.43.0",
+  "hash": "41c95dcdb1ac2b101531",
+  "publicPath": "/static/",
+  "outputPath": "/Users/mattherich/Code/matts-blog/build/static",
+  "assetsByChunkName": {
+    "list": "list.module.js",
+    "matts-blog": "matts-blog.module.js"
+  },
+  "assets": [
+    {
+      "name": "list.module.js",
+      "size": 47617,
+      "chunks": [
+        "list"
+      ],
+      "chunkNames": [
+        "list"
+      ],
+      "info": {},
+      "emitted": false
+    },
+    {
+      "name": "matts-blog.module.js",
+      "size": 5042633,
+      "chunks": [
+        "matts-blog"
+      ],
+      "chunkNames": [
+        "matts-blog"
+      ],
+      "info": {},
+      "emitted": false
+    }
+  ],
+  "filteredAssets": 0,
+  "entrypoints": {
+    "matts-blog": {
+      "chunks": [
+        "matts-blog"
+      ],
+      "assets": [
+        "matts-blog.module.js"
+      ],
+      "children": {},
+      "childAssets": {}
+    }
+  },
+  "namedChunkGroups": {
+    "matts-blog": {
+      "chunks": [
+        "matts-blog"
+      ],
+      "assets": [
+        "matts-blog.module.js"
+      ],
+      "children": {},
+      "childAssets": {}
+    },
+    "list": {
+      "chunks": [
+        "list"
+      ],
+      "assets": [
+        "list.module.js"
+      ],
+      "children": {},
+      "childAssets": {}
+    }
+  },
+  "logging": {
+    "webpack.buildChunkGraph.visitModules": {
+      "entries": [],
+      "filteredEntries": 5,
+      "debug": false
+    }
+  },
+  "children": []
+}
